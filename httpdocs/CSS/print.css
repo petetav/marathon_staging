@@ -1,0 +1,66 @@
+body, #content, #container {
+	width: 100%;
+	margin: 0;
+	float: none;
+	background: #fff url(none);
+}
+
+
+
+
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 { font-size: 250%; }
+h2 { font-size: 175%; }
+h3 { font-size: 135%; }
+h4 { font-size: 100%; font-variant: small-caps; }
+h5 { font-size: 100%; }
+h6 { font-size: 90%; font-style: italic; }
+
+.centered{
+	text-align: center;
+}
+.left{
+	text-align: left;
+}
+
+body {
+	font-family: Georgia, serif;
+	background: none;
+	color: black;
+}
+#page {
+	width: 80%;
+	margin: auto;
+	margin-top: -70px;
+	padding: 40 0 0 0;
+	background: none;
+	
+	
+}
+#header, #menu-bar, #sidebar, h2#postcomment, form#commentform, #footer, #nextrun, #newprintbutton, #noprint  {
+	display: none;
+}
+
+.nextrun {
+	display: none;
+}
+
+.entry a:after {
+	content: " [" attr(href) "] ";
+}
+#printed-article {
+	border: 1px solid #666;
+	padding: 10px;
+}
+#printbutton{
+	display: none;
+}
+
+#filmstrip, #adverts_include, #advert, #footer, #header, #nav, #topnav, #ul topnav, #logo {
+	display: none;
+}
+
