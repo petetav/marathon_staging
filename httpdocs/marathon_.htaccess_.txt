@@ -1,5 +1,0 @@
-ErrorDocument 404 http://2015.lingfield-marathon.org/404page.html
-
-RewriteEngine off
-RewriteCond %{HTTPS} off
-RewriteRule (.*) https://lingfield-marathon.org/index.php
